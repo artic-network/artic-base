@@ -5,3 +5,16 @@ You can modify the existing files to suit your use-case but avoid moving or rena
 
 If the template is updated, you will be able to merge these changes into your repository as needed.
 
+To install the `Conda` environment use:
+
+```
+conda env create -f environment.yml -n <environment name>
+```
+
+Where `<environment_name>` is the name you want to use (probably the same as the repo).
+
+Then activate the environment using:
+
+```
+conda activate <environment name>
+```
